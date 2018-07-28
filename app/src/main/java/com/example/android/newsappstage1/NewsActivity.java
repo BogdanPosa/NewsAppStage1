@@ -66,6 +66,7 @@ public class NewsActivity extends AppCompatActivity
                 // Create a new intent to view the News URI
                 Intent websiteIntent = new Intent(Intent.ACTION_VIEW, newsUri);
 
+                // Starts the intent
                 startActivity(websiteIntent);
             }
         });

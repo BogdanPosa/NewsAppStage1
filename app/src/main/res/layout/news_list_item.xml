@@ -29,17 +29,19 @@
         android:layout_marginStart="@dimen/standard_margin"
         android:layout_weight="1"
         android:orientation="vertical">
-
         <TextView
-            style="@style/TextView"
             android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="2"
             android:textColor="@color/textColorNewsTitle"
             android:textSize="@dimen/textSizeBig"
             tools:text="Long placeholder location that should wrap to more than 2 lines of text" />
+
         <TextView
             style="@style/TextView"
+            android:gravity="end"
             android:id="@+id/author"
             android:ellipsize="end"
             android:maxLines="1"

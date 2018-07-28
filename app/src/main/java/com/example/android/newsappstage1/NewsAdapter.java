@@ -82,7 +82,7 @@ public class NewsAdapter extends ArrayAdapter<News> {
         String author =name+" "+surname;
 
         // Find the TextView with view ID title
-        TextView authorView = (TextView) listItemView.findViewById(R.id.author);
+        TextView authorView = listItemView.findViewById(R.id.author);
         // Display the location of the current News in that TextView
         authorView.setText(author);
 
@@ -135,7 +135,7 @@ public class NewsAdapter extends ArrayAdapter<News> {
     }
 
     /**
-     * Return the color for the section rectangle based on the intensity of the News.
+     * Return the color for the section rectangle based on the type of the News.
      *
      * @param section of the News
      */
@@ -156,7 +156,7 @@ public class NewsAdapter extends ArrayAdapter<News> {
                 sectionColorResourceId = R.color.section4;
                 break;
             case "UK news":
-                sectionColorResourceId = R.color.section5;
+                sectionColorResourceId = R.color.section4;
                 break;
             case "Science":
                 sectionColorResourceId = R.color.section6;
@@ -170,8 +170,14 @@ public class NewsAdapter extends ArrayAdapter<News> {
             case "Technology":
                 sectionColorResourceId = R.color.section9;
                 break;
-            default:
+            case "US news":
                 sectionColorResourceId = R.color.section10;
+                break;
+            case "Australia news":
+                sectionColorResourceId = R.color.section10;
+                break;
+            default:
+                sectionColorResourceId = R.color.section1;
                 break;
         }
 
@@ -199,17 +205,14 @@ public class NewsAdapter extends ArrayAdapter<News> {
             case "World news":
                 sectionColorBackground = R.color.section5;
                 break;
+            case "UK news":
+                sectionColorBackground = R.color.section5;
+                break;
             case "US news":
                 sectionColorBackground = R.color.section5;
                 break;
             case "Science":
                 sectionColorBackground = R.color.section6;
-                break;
-            case "Society":
-                sectionColorBackground = R.color.section11;
-                break;
-            case "Music":
-                sectionColorBackground = R.color.section11;
                 break;
             case "Technology":
                 sectionColorBackground = R.color.section4;

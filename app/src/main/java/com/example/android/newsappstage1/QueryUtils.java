@@ -162,7 +162,7 @@ public final class QueryUtils {
                 }
 
                 // Extract the value for the key called "time"
-                String time = currentNews.getString("PublicationDate");
+                String time = currentNews.getString("webPublicationDate");
 
                 // Extract the value for the key called "url"
                 String url = currentNews.getString("webUrl");

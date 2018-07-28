@@ -19,10 +19,10 @@
     <!-- Section circle color for an News of section Opinion -->
     <color name="section3">#10CAC9</color>
 
-    <!-- Section circle color for an News of section World news -->
+    <!-- Section circle color for an News of section World news and UK news-->
     <color name="section4">#F5A623</color>
 
-    <!-- Section circle color for an News of section UK news -->
+    <!-- Section background color for important News categories -->
     <color name="section5">#FF7D50</color>
 
     <!-- Section circle color for an News of section Science -->
@@ -40,7 +40,7 @@
     <!-- Section circle color for an News of all other sections -->
     <color name="section10">#C03823</color>
 
-    <!-- Section circle color for an News of all other sections -->
+    <!-- Section background color for an News of all other sections -->
     <color name="section11">#ffff</color>
 
 </resources>
