@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NewsAppStage1</string>
+    <string name="no_feed">No news were found</string>
+    <string name="near_the">CECACA</string>
+    <string name="read_timeout">Read time out</string>
+    <string name="connect_timeout">Connection Timeout</string>
+    <string name="no_internet_connection">No Internet connection </string>
+    <string name="today">today</string>
+</resources>

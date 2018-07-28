@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standard_margin">16dp</dimen>
+    <dimen name="big_padding">24dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="category_height">64dp</dimen>
+    <dimen name="list_padding">2dp</dimen>
+    <dimen name="textSizeBig">16sp</dimen>
+    <dimen name="textSizeNormal">12sp</dimen>
+    <dimen name="rectangleWidth">50dp</dimen>
+    <dimen name="rectangleHeight">48dp</dimen>
+    <dimen name="standard_padding">16dp</dimen>
+</resources>
